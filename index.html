@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap"
+          rel="stylesheet">
+
+    <!-- JavaScript Libraries -->
+    <script src="https://unpkg.com/sweet-scroll/sweet-scroll.min.js"></script>
+
+    <!-- CSS & JS -->
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./index.js" defer></script>
+
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio - Kamille Galicia</title>
+
+    <!-- Icons -->
+    <link rel="icon" href=>
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/icons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/icons/apple-touch-icon-57x57.png">
+</head>
+<body>
+<main>
+    <!-- Hero Header -->
+    <header id="heroHeader" class="hero-header">
+        <nav id="navBar" class="nav">
+            <div class="container">
+                <button type="button" id="hamburgerBtn" class="nav__hamburger-btn">
+                    <span class="nav__hamburger-top"></span>
+                    <span class="nav__hamburger-center"></span>
+                    <span class="nav__hamburger-bottom"></span>
+                </button>
+                <ul id="navList" class="nav__list">
+                    <li class="nav__list-item">
+                        <a class="nav__list-link active" href="#heroHeader">&lt;Home &sol;&gt;</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link" href="#services">&lt;Services &sol;&gt;</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link" href="#works">&lt;Works &sol;&gt;</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link" href="#contact">&lt;Contact &sol;&gt;</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="header__container container">
+            <div class="header__left">
+                <span class="header__sup-text">Hello World! I am Kamille Galicia a</span>
+                <h1 class="header__title">
+                    <span class="header__title-1" data-role="WEB">Web</span>
+                    <span class="header__title-2" data-role="DEVELOPER">Developer</span>
+                </h1>
+                <p class="header__msg">As a passionate web developer and Third Year in Bachelor of Science in Information Technology student, I have honed my skills through academic and 
+                    freelance projects. My expertise in HTML, CSS, JavaScript, and popular frameworks ensures I can deliver high-quality, responsive websites. 
+                    I am dedicated to understanding client needs and exceeding their expectations by creating user-friendly, visually appealing, and functional web solutions. 
+                    My hands-on experience and commitment to excellence make me a reliable choice for achieving outstanding results!</p>
+                <a href="#" class="header__resume">Let's work together!</a>
+            </div>
+            <div class="header__right">
+                <img src="./assets/illustrations/header.svg" alt="Header section illustration"/>
+            </div>
+        </section>
+        <span class="header__bg"></span>
+    </header>
+
+    <!-- Services -->
+    <section id="services" class="section container">
+        <h2 class="section__title">Services</h2>
+
+        <div class="service-cards">
+            <article class="service-card__box">
+                <span class="service-card__illustration">
+                    <img src="./assets/services/support.svg" alt="Support Illustration"/>
+                </span>
+                <h3 class="service-card__title">Deployment</h3>
+                <p class="service-card__msg"> I'm good at getting websites up and running smoothly. I've launched several projects before and I'm familiar with the different tools 
+                    and steps involved. Plus, I always keep everyone informed throughout the process.</p>
+                <span class="service-card__bg"></span>
+            </article>
+            <article class="service-card__box">
+                <span class="service-card__illustration">
+                    <img src="./assets/services/design.svg" alt="Design Illustration"/>
+                </span>
+                <h3 class="service-card__title">Design</h3>
+                <p class="service-card__msg">Websites shouldn't just look pretty, they should be a breeze to navigate! I have a good eye for design, but I also keep users in mind. 
+                    I can make websites stylish and modern, but also clear and organized.</p>
+                <span class="service-card__bg"></span>
+            </article>
+            <article class="service-card__box">
+                <span class="service-card__illustration">
+                    <img src="./assets/services/developing.svg" alt="Deploy Illustration"/>
+                </span>
+                <h3 class="service-card__title">Developing</h3>
+                <p class="service-card__msg">I'm skilled at turning ideas into working websites, kind of like a code whisperer.  
+                    I can write the instructions that make the website come to life,  and I'm good at making those instructions clear and easy to understand, so everything runs smoothly.</p>
+                <span class="service-card__bg"></span>
+            </article>
+        </div>
+    </section>
+
+    <!-- Sample Works -->
+    <section id="works" class="section container">
+        <h2 class="section__title">My Works</h2>
+        <div class="works">
+            <article class="work">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="./assets/works/w1_thumbnail.png" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">Grandeur Hotel Booking Website</h3>
+                    <span class="work__badges">
+                    <span class="work__badge">PHP</span>
+                    <span class="work__badge">CSS</span>
+                    <span class="work__badge">JavaScript</span>
+                </span>
+                </div>
+            </article>
+            <article class="work">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="./assets/works/w2_thumbnail.png" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">POS Milktea using Java GUI</h3>
+                    <span class="work__badges">
+                    <span class="work__badge">Java</span>
+                    <span class="work__badge">UX/UI</span>
+                    <span class="work__badge">Wireframe</span>
+                </span>
+                </div>
+            </article>
+            <article class="work">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="./assets/works/w3_thumbnail.png" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">Spicykicks Shoe Business Logo</h3>
+                    <span class="work__badges">
+                    <span class="work__badge">Adobe Photoshop</span>
+                    <span class="work__badge">Design</span>
+                </span>
+                </div>
+            </article>
+            <article class="work">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="./assets/works/w4_thumbnail.png" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">Anti-Theft Alarm System</h3>
+                    <span class="work__badges">
+                    <span class="work__badge">Tinkercad</span>
+                    <span class="work__badge">C++</span>
+                    <span class="work__badge">Hardware</span>
+                </span>
+                </div>
+            </article>
+            <article class="work">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="./assets/works/w5_thumbnail.png" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">Ecommerce Wireframe</h3>
+                    <span class="work__badges">
+                    <span class="work__badge">Adobe Photoshop</span>
+                    <span class="work__badge">Design</span>
+                </span>
+                </div>
+            </article>
+            <article class="work">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="./assets/works/w6_thumbnail.png" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">Mockups Design </h3>
+                    <span class="work__badges">
+                    <span class="work__badge">Adobe Photoshop</span>
+                    <span class="work__badge">Design</span>
+                </span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container">
+        <h2 class="section__title">Let's Connect!</h2>
+        <a href=mailto:"galiciakamille@gmail.com" class="header__resume">Email</a>
+            <span class="contact__illustration">
+                <img src="./assets/illustrations/connect.svg" alt="Group of people connecting with each other"/>
+            </span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        Kamille Galicia Portfolio &copy 2024 <br>
+    This portfolio is still in progress</br></a>
+    </footer>
+</main>
+</body>
+</html>
