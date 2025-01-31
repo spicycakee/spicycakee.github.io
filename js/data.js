@@ -15,18 +15,28 @@ const data = {
             imgLink: "images/portfolio/project.jpg"
         },
         {
-            techStack: "HTML, CSS, JS",
-            title: "Nova Finance",
-            githubLink: "https://github.com/spicycakee/Nova-Finance",
-            projectLink: "https://spicycakee.github.io/Nova-Finance/",
-            imgLink: "images/portfolio/project2.jpg"
+            techStack: "WordPress, Neve, Otter Gutenberg, CSS",
+            title: "Shooting Gear Experience Reviews",
+            projectLink: "https://shootingexperience.com/",
+            imgLink: "images/portfolio/project 5.jpg"
         },
         {
-            techStack: "HTML, CSS, JS",
-            title: "Zenith App Services",
-            githubLink: "https://github.com/spicycakee/Zenith-App",
-            projectLink: "https://spicycakee.github.io/Zenith-App/",
-            imgLink: "images/portfolio/project4.jpg"
+            techStack: "WordPress, Neve, Elementor",
+            title: "Fountain Hills Rental (In Progress)",
+            projectLink: "https://shepardh3.sg-host.com/",
+            imgLink: "images/portfolio/project6.jpg"
+        },
+        {
+            techStack: "WordPress, Flatsome",
+            title: "Peace Festival USA (In Progress)",
+            projectLink: "https://peacefestivalusa.com/",
+            imgLink: "images/portfolio/project7.jpg"
+        },
+        {
+            techStack: "WordPress, ",
+            title: "Fun Things To Do In Jackson Hole (In Progress)",
+            projectLink: "https://shepardh5.sg-host.com/",
+            imgLink: "images/portfolio/project8.jpg"
         }
     ]
 }
